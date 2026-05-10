@@ -1,4 +1,5 @@
-import { useState, FormEvent } from 'react'
+import { useState } from 'react'
+import type { FormEvent } from 'react'
 import { Zap, Eye, EyeOff, AlertCircle } from 'lucide-react'
 
 const VALID_USER = 'testapp'
