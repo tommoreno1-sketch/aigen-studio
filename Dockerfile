@@ -15,5 +15,4 @@ RUN cd server && npm install --omit=dev
 
 COPY server/ ./server/
 
-EXPOSE 3001
 CMD ["node", "server/index.js"]
